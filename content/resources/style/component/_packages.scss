@@ -1,0 +1,72 @@
+@import '../../../../style/bootstrap-custom/bootstrap-no-output';
+
+.lesson-frequency {
+  h3 {
+    color: #999;
+  }
+
+  .active {
+    h3 {
+      color: map-get($base-colors-overrides, brand-secondary);
+    }
+  }
+}
+
+.package-description {
+  position: relative;
+
+  &:after {
+    position: absolute;
+    bottom: 0;
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 150px;
+    background-color: #FFF;
+  }
+
+  ul {
+    margin-top: .5em;
+  }
+
+  p p,
+  li {
+    font-size: .9em;
+  }
+
+  li {
+    margin-bottom: .25em;
+  }
+
+  iframe {
+    margin-top: 2em;
+    width: 100%;
+    height: 990px;
+  }
+
+  @media screen and (min-width: $screen-xs-min) {
+    iframe {
+      height: 940px;
+    }
+
+    &:after {
+      height: 160px;
+    }
+  }
+
+  @media screen and (min-width: $screen-sm-min) {
+    iframe {
+      height: 870px;
+    }
+  }
+
+  @media screen and (min-width: $screen-md-min) {
+    iframe {
+      height: 710px;
+    }
+
+    &:after {
+      height: 160px;
+    }
+  }
+}

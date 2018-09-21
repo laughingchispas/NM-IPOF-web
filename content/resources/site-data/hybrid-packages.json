@@ -1,0 +1,192 @@
+{
+  "config": {
+    "header": true,
+    "footer": true,
+    "mainMenu": true
+  },
+  "component": [
+    {
+      "type": "ContentToggle",
+      "config": {
+        "defaultTarget": "none",
+        "disableTargetsOnHide": true,
+        "class": [
+          "compensate-header",
+          "text-center",
+          "lesson-frequency"
+        ]
+      },
+      "content": {
+        "title": "Select your private hybrid lesson package",
+        "toggles": [
+          {
+            "target": "once-a-week-group",
+            "title": "Once a week"
+          },
+          {
+            "target": "twice-a-week-group",
+            "title": "Twice a week"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ContentToggle",
+      "config": {
+        "id": "once-a-week-group",
+        "defaultTarget": "none",
+        "disableTargetsOnHide": true,
+        "class": [
+          "text-center"
+        ]
+      },
+      "content": {
+        "toggles": [
+          {
+            "target": "once-a-week-in-person",
+            "button": "In Person"
+          },
+          {
+            "target": "once-a-week-hybrid",
+            "button": "Hybrid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ContentToggle",
+      "config": {
+        "id": "twice-a-week-group",
+        "defaultTarget": "none",
+        "disableTargetsOnHide": true,
+        "class": [
+          "text-center"
+        ]
+      },
+      "content": {
+        "toggles": [
+          {
+            "target": "twice-a-week-in-person",
+            "button": "In Person"
+          },
+          {
+            "target": "twice-a-week-hybrid",
+            "button": "Hybrid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "TileSet",
+      "config": {
+        "id": "once-a-week-in-person",
+        "class": [
+          "text-center",
+          "packages-group"
+        ]
+      },
+      "content": {
+        "tiles": [
+          {
+            "title": "60-min lessons",
+            "body": "<span class='feature-bubble primary'><span class='large'>4</span>hrs<br><span class='small'>total</span></span><p>4 lessons/month</p><p>$280<span class='disclaimer'>(+2.9% credit card fees)</span>",
+            "cta": {
+              "text": "sign up",
+              "href": "/packages/4"
+            }
+          },
+          {
+            "title": "90-min lessons",
+            "body": "<span class='feature-bubble secondary'><span class='large'>6</span>hrs<br><span class='small'>total</span></span><p>4 lessons/month</p><p>$390<span class='disclaimer'>(+2.9% credit card fees)</span>",
+            "cta": {
+              "text": "sign up",
+              "href": "/packages/6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "TileSet",
+      "config": {
+        "id": "once-a-week-hybrid",
+        "class": [
+          "text-center",
+          "packages-group"
+        ]
+      },
+      "content": {
+        "tiles": [
+          {
+            "title": "60-min lessons",
+            "body": "<span class='feature-bubble primary'><span class='large'>4</span>hrs<br><span class='small'>total</span></span><p>4 lessons/month<br><small>2 online conversation sessions<br>2 lessons in person</small></p><p>$190<span class='disclaimer'>(+2.9% credit card fees)</span>",
+            "cta": {
+              "text": "sign up",
+              "href": "/hybrid-packages/4"
+            }
+          },
+          {
+            "title": "90-min lessons",
+            "body": "<span class='feature-bubble secondary'><span class='large'>6</span>hrs<br><span class='small'>total</span></span><p>4 lessons/month<br><small>2 online conversation sessions<br>2 lessons in person</small></p><p>$299<span class='disclaimer'>(+2.9% credit card fees)</span>",
+            "cta": {
+              "text": "sign up",
+              "href": "/hybrid-packages/6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "TileSet",
+      "config": {
+        "id": "twice-a-week-in-person",
+        "class": [
+          "text-center",
+          "packages-group"
+        ]
+      },
+      "content": {
+        "tiles": [
+          {
+            "title": "60-min lessons",
+            "body": "<span class='feature-bubble primary'><span class='large'>8</span>hrs<br><span class='small'>total</span></span><p>8 lessons/month</p><p>$520<span class='disclaimer'>(+2.9% credit card fees)</span>",
+            "cta": {
+              "text": "sign up",
+              "href": "/packages/8"
+            }
+          },
+          {
+            "title": "90-min lessons",
+            "body": "<span class='feature-bubble secondary'><span class='large'>12</span>hrs<br><span class='small'>total</span></span><p>8 lessons/month</p><p>$780<span class='disclaimer'>(+2.9% credit card fees)</span>",
+            "cta": {
+              "text": "sign up",
+              "href": "/packages/12"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "TileSet",
+      "config": {
+        "id": "twice-a-week-hybrid",
+        "class": [
+          "text-center",
+          "packages-group"
+        ]
+      },
+      "content": {
+        "tiles": [
+          {
+            "title": "60-min lessons",
+            "body": "<span class='feature-bubble primary'><span class='large'>8</span>hrs<br><span class='small'>total</span></span><p>8 lessons/month<br><small>4 online conversation sessions<br>4 lessons in person</small></p><p>$399<span class='disclaimer'>(+2.9% credit card fees)</span>",
+            "cta": {
+              "text": "sign up",
+              "href": "/hybrid-packages/8"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

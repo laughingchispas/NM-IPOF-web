@@ -1,0 +1,71 @@
+{
+  "component": {
+    "header": {
+      "content": {
+        "mainMenuToggle": {
+          "label": "Menu"
+        },
+        "logo": {
+          "type": "icon"
+        }
+      }
+    },
+    "footer": {
+      "content": {
+        "copyright": {
+          "copy": "Una Buena Spanish"
+        },
+        "sections": [
+          {
+            "title": "Una Buena Spanish",
+            "items": [
+              {
+                "routerLink": "/home",
+                "copy": "Home"
+              }
+            ]
+          },
+          {
+            "title": "Learn About Us",
+            "items": [
+              {
+                "routerLink": "/about",
+                "copy": "About Una Buena"
+              },
+              {
+                "routerLink": "/contact",
+                "copy": "Contact Us"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "mainMenu": {
+      "config": {
+      },
+      "content": {
+        "header": {
+          "defaultBackText": "Close"
+        },
+        "items": [
+          {
+            "style": "link",
+            "text": "Home",
+            "href": "/home"
+          },
+          {
+            "style": "link",
+            "text": "About Una Buena",
+            "href": "/about"
+          },
+          {
+            "style": "link",
+            "text": "Contact Us",
+            "href": "/contact"
+          }
+        ]
+      }
+    }
+  }
+}

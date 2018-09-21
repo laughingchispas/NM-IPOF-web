@@ -1,0 +1,72 @@
+@import '../variables';
+@import '../../../../style/bootstrap-custom/bootstrap-no-output';
+
+menu {
+  &.main-menu {
+    .backdrop {
+      background: rgba(0, 0, 0, .5) !important;
+    }
+  }
+}
+
+.main-menu-page {
+  width: 90% !important;
+  max-width: 325px;
+
+  button {
+    background: transparent;
+  }
+
+  .menu-page-header {
+    height: 76px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    h2,
+    span {
+      font-weight: 300;
+    }
+  }
+
+  li {
+    a {
+      padding-bottom: .5em;
+      border-bottom: 1px solid #ddd;
+    }
+
+    border-bottom: none !important;
+  }
+}
+
+body.main-menu-active {
+  .site-content-wrapper {
+    filter: grayscale(50%);
+    transition: filter .5s;
+  }
+}
+
+@media screen and (min-width: $screen-xs-min) {
+  .main-menu-page {
+    width: 50% !important;
+  }
+}
+
+@media screen and (min-width: $screen-sm-min) {
+  .main-menu-page {
+    width: 33% !important;
+  }
+}
+
+@media screen and (min-width: $screen-md-min) {
+  .main-menu-page {
+    //width: 25% !important;
+  }
+}
+
+@media screen and (min-width: $screen-lg-min) {
+  .main-menu-page {
+    width: 25% !important;
+  }
+}

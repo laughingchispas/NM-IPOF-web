@@ -1,0 +1,52 @@
+body {
+    font-weight: 300;
+}
+
+li {
+    list-style: disc;
+}
+
+small {
+    font-size: .75em;
+}
+
+.intrinsic-16-9 {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+
+    .intrinsic-child {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.embedded-video {
+    max-width: 600px;
+    margin: 1.5em auto;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.solid-bg-1 {
+    background: #f0f0f0;
+}
+
+.disclaimer {
+    font-size: .75em;
+    color: #999;
+    font-style: italic;
+}

@@ -1,0 +1,22 @@
+$body-font-family-override: Roboto, sans-serif;
+$titling-font-family-override: "Open Sans Condensed",  sans-serif;
+
+$base-colors-overrides: (
+    //brand-primary: #319fa5,
+    brand-primary: #449A9F,
+    brand-secondary: #d74734,
+    brand-tertiary: #696969,
+    white: #FFF,
+);
+
+$colors-overrides: (
+    button-bg: map-get($base-colors-overrides, brand-secondary),
+    footer-bg: map-get($base-colors-overrides, brand-tertiary),
+    header-color: #FFF,
+    header-bg: map-get($base-colors-overrides, brand-primary),
+    header-logo-color: #fff,
+    main-menu-item-hover-color: darken(map-get($base-colors-overrides, brand-primary), 40%),
+    main-menu-page-bg: map-get($base-colors-overrides, white),
+    main-menu-page-header-bg: map-get($base-colors-overrides, brand-primary),
+    main-menu-separator-color: lighten(map-get($base-colors-overrides, brand-primary),50),
+);

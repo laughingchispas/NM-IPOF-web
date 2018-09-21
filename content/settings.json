@@ -1,0 +1,75 @@
+{
+  "build": {
+    "devServer": {
+      "host": "192.168.1.5",
+      "port": 3000
+    },
+    "outputBase": {
+      "prod": "../dist/prod",
+      "staging": "../dist/staging"
+    }
+  },
+  "font": [
+    {
+      "name": "siteIcon",
+      "generated": true,
+      "type": "webfont",
+      "formats": [
+        {
+          "name": "eot",
+          "extension": "eot"
+        },
+        {
+          "name": "truetype",
+          "extension": "ttf"
+        },
+        {
+          "name": "woff",
+          "extension": "woff"
+        }
+      ],
+      "weight": "normal",
+      "style": "normal"
+    },
+    {
+      "name": "Open Sans Condensed",
+      "type": "import",
+      "url": "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700"
+    },
+    {
+      "name": "Roboto",
+      "type": "import",
+      "url": "https://fonts.googleapis.com/css?family=Roboto:300,500,700"
+    }
+  ],
+  "style": {
+    "overridesBaseDir": "resources/style",
+    "overridesEntryPoint": "custom.scss"
+  },
+  "url": {
+    "dev": {
+      "dataRoot": "/resources/site-data/",
+      "contentRoot": "/resources/asset/"
+    },
+    "staging": {
+      "dataRoot": "//inpraiseoffolly.co/staging/site-data/",
+      "contentRoot": "//inpraiseoffolly.co/staging/asset/"
+    },
+    "prod": {
+      "dataRoot": "//www.inpraiseoffolly.co/site-data/",
+      "contentRoot": "//www.inpraiseoffolly.co/asset/"
+    },
+    "relative": {
+      "font": "/font/",
+      "image": "/image/"
+    }
+  },
+  "resources": {
+    "contentRoot": "resources/asset",
+    "dataRoot": "resources/site-data",
+    "fontRoot": "resources/asset/font"
+  },
+  "server": {
+    "htaccess": "resources/.htaccess"
+  }
+}

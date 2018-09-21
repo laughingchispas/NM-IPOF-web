@@ -1,0 +1,23 @@
+{
+  "config": {
+    "header": true,
+    "footer": true,
+    "mainMenu": true
+  },
+  "component": [
+    {
+      "type": "Copy",
+      "config": {
+        "class": [
+          "compensate-header",
+          "package-description",
+          "lessons-1x90"
+        ]
+      },
+      "content": {
+        "subtitle": "One 90 Minute Private Spanish Lesson",
+        "body": "Description:<ul><li>$115 per 90 minute lesson</li><li>To purchase more than one lesson, simply change the amount in the order form below</li><li>2.9% credit card fee included</li></ul><span class='disclaimer'>Lesson(s) must be redeemed within 30 days of purchase</span><iframe class='scheduler-frame' src='https://app.acuityscheduling.com/catalog.php?owner=12063695&action=addCart&clear=1&id=362324' frameborder='0' allowfullscreen></iframe>"
+      }
+    }
+  ]
+}

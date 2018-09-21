@@ -1,0 +1,65 @@
+@import '../variables.scss';
+@import '../../../../style/bootstrap-custom/bootstrap-no-output';
+
+header {
+  color: map-get($colors-overrides, 'header-color');
+  background: map-get($colors-overrides, header-bg);
+  padding: 1em;
+  z-index: 1;
+
+  .menu-toggle {
+    position: relative;
+    bottom: 1px;
+  }
+
+  .controls {
+    .main-menu-toggle {
+      i {
+        font-size: 3em;
+        margin-right: 0;
+      }
+
+      .label {
+        display: none;
+        font-weight: 300;
+      }
+    }
+  }
+
+  .siteIcon-menu:before {
+    line-height: 0;
+  }
+
+  .logo {
+    .siteIcon {
+      font-size: 2.5em;
+      position: relative;
+      bottom: 5px;
+      color: map-get($colors-overrides, header-logo-color);
+    }
+  }
+
+  @media screen and(min-width: $screen-xs-min) {
+    .controls {
+      .main-menu-toggle {
+        i {
+          font-size: 2em;
+          margin-right: .5em;
+        }
+
+        .label {
+          display: inline;
+        }
+      }
+    }
+  }
+
+  @media screen and(min-width: $screen-sm-min) {
+    .logo {
+      .siteIcon {
+        font-size: 3em;
+        bottom: 7px;
+      }
+    }
+  }
+}

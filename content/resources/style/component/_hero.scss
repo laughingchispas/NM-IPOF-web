@@ -1,0 +1,34 @@
+@import '../variables';
+@import '../../../../style/bootstrap-custom/bootstrap-no-output';
+
+&:host {
+    .hero {
+        h1 {
+            text-shadow: rgba(0, 0, 0, .8) 0 0 15px;
+        }
+        h2 {
+            text-shadow: #000 0 0 8px;
+        }
+
+        h2 {
+            font-family: $body-font-family-override;
+        }
+
+        /* Home page hero needs adjustments for image */
+        &.home-hero {
+            .structure-content {
+                padding: 6em 0 2em 0;
+            }
+        }
+
+        @media screen and(min-width: $screen-sm-min) {
+            h1 {
+                font-size: 1.75em;
+            }
+
+            h2 {
+                font-size: .6em;
+            }
+        }
+    }
+}

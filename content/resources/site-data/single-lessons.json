@@ -1,0 +1,51 @@
+{
+  "config": {
+    "header": true,
+    "footer": true,
+    "mainMenu": true
+  },
+  "component": [
+    {
+      "type": "Copy",
+      "config": {
+        "class": [
+          "compensate-header",
+          "text-center"
+        ]
+      },
+      "content": {
+        "title": "Select a lesson"
+      }
+    },
+    {
+      "type": "TileSet",
+      "config": {
+        "class": [
+          "text-center",
+          "packages-group",
+          "single-lesson-package"
+        ]
+      },
+      "content": {
+        "tiles": [
+          {
+            "title": "60-min lesson",
+            "body": "<span class='feature-bubble primary'><span class='small'>$</span><span class='large'>75</span><br><span class='small'>per lesson</span></span><span class='disclaimer'>(2.9% credit card fee included)</span>",
+            "cta": {
+              "text": "sign up",
+              "href": "/single-lessons/60"
+            }
+          },
+          {
+            "title": "90-min lessons",
+            "body": "<span class='feature-bubble secondary'><span class='small'>$</span><span class='large'>115</span><br><span class='small'>per lesson</span></span><span class='disclaimer'>(2.9% credit card fee included)</span>",
+            "cta": {
+              "text": "sign up",
+              "href": "/single-lessons/90"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

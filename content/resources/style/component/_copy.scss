@@ -1,0 +1,62 @@
+@import '../variables';
+@import '../../../../style/bootstrap-custom/bootstrap-no-output';
+
+&:host {
+  .copy {
+    font-size: .75em;
+
+    h1 {
+      font-weight: 300;
+    }
+
+    .structure-content {
+      .container {
+        padding-top: 1em;
+        padding-bottom: 1em;
+      }
+    }
+
+    &.footer-strip {
+      padding: 0;
+      height: auto;
+      background-size: auto !important;
+      background-repeat: repeat-x !important;
+      background-position: left center !important;
+      margin-top: 2em;
+
+      .structure-content {
+        height: 107px;
+        padding: 0;
+      }
+    }
+
+    @media screen and(min-width: $screen-sm-min) {
+      font-size: 1.25em;
+
+      &.footer-strip {
+        .structure-content {
+          height: 138px;
+          padding: 0;
+        }
+      }
+    }
+
+    @media screen and(min-width: $screen-md-min) {
+      &.footer-strip {
+        .structure-content {
+          height: 167px;
+          padding: 0;
+        }
+      }
+    }
+
+    @media screen and(min-width: $screen-lg-min) {
+      &.footer-strip {
+        .structure-content {
+          height: 267px;
+          padding: 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "config": {
+    "header": true,
+    "footer": true,
+    "mainMenu": true
+  },
+  "component": [
+    {
+      "type": "Copy",
+      "config": {
+        "class": [
+          "compensate-header",
+          "package-description",
+          "lessons-8x60"
+        ]
+      },
+      "content": {
+        "title": "Once a week",
+        "subtitle": "8 Private Lesson Package (60-min)",
+        "body": "Description:<ul><li>8 (60-minute) Private Lessons in person / month</li><li>8 hours total for $520</li><li>2.9% credit card fee</li></ul><span class='disclaimer'>All 8 lessons must be redeemed within 31 days of the first lesson</span><iframe class='scheduler-frame' src='https://app.acuityscheduling.com/catalog.php?owner=12063695&action=addCart&clear=1&id=362180' frameborder='0' allowfullscreen></iframe>"
+      }
+    }
+  ]
+}

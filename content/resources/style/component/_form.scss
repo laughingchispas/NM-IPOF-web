@@ -1,0 +1,101 @@
+@import '../_variables.scss';
+@import '../../../../style/bootstrap-custom/bootstrap-no-output';
+
+form {
+  margin: 0 auto;
+  max-width: 500px;
+
+  h2 {
+    font-weight: 300;
+    font-size: 3em;
+    text-align: center;
+  }
+
+  p {
+    color: map-get($base-colors-overrides, brand-secondary);
+    font-weight: bold;
+    text-align: center;
+  }
+
+  button {
+    display: block;
+    margin: 0 auto;
+
+    &:disabled {
+      cursor: pointer !important;
+    }
+  }
+}
+
+input, textarea {
+  border: 1px solid #333;
+  padding: 1em;
+  border-radius: 5px;
+  font-family: $body-font-family-override;
+  font-size: 1em;
+  outline: none;
+
+  &.ng-invalid {
+    &.ng-dirty {
+      border: 1px solid map-get($base-colors-overrides, brand-secondary);
+    }
+  }
+}
+
+lm-form-field {
+  display: block;
+  margin-bottom: 1em;
+  
+  &::ng-deep {
+    label {
+      margin-bottom: .5em;
+      display: none;
+      font-size: 1em;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      max-width: 600px;
+    }
+
+    textarea {
+      min-height: 150px;
+    }
+  }
+}
+
+.message {
+  font-weight: bold;
+  margin: 0 auto;
+  max-width: 500px;
+  clear: both;
+  padding-top: 1em;
+  text-align: center;
+
+  &.error {
+    color: map-get($base-colors-overrides, brand-secondary);
+  }
+
+  &.success {
+    color: map-get($base-colors-overrides, brand-primary);
+  }
+
+  .alternate {
+    font-size: .75em;
+    font-weight: normal;
+    color: #999;
+  }
+}
+
+@media screen and (min-width: $screen-lg-min) {
+  lm-form-field {
+    margin-bottom: 1.5em;
+
+    &::ng-deep {
+      label {
+        margin-bottom: .5em;
+      }
+    }
+  }
+}

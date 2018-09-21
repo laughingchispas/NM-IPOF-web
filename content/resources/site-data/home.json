@@ -1,0 +1,76 @@
+{
+  "config": {
+    "header": true,
+    "footer": true,
+    "mainMenu": true
+  },
+  "component": [
+    {
+      "type": "Hero",
+      "config": {
+        "class": [
+          "compensate-header",
+          "text-center",
+          "home-hero"
+        ],
+        "background": {
+          "style": "image",
+          "value": "/home-hero.jpg",
+          "responsive": true
+        },
+        "id": "test-id"
+      },
+      "content": {
+        "title": "Spanish Courses for Adults",
+        "subtitle": "Accelerated Language Learning in Seattle",
+        "cta": {
+          "text": "Learn more",
+          "href": "/contact"
+        }
+      }
+    },
+    {
+      "type": "Copy",
+      "config": {
+        "class": [
+          "solid-bg-1",
+          "home-copy-blade"
+        ]
+      },
+      "content": {
+        "title": "If you want fast progress, learn smarter",
+        "body": "<p>At Una Buena we think it is very important to encourage you to not give up your goals/aspirations of becoming fluent in Spanish. Sí, you can do it, and very fast! Our friend Benny Lewis explains it better than we could in this TED talk</p><div class='embedded-video'><div class='intrinsic-16-9'><iframe class='intrinsic-child' src='https://www.youtube.com/embed/0x2_kWRB8-A' frameborder='0' allowfullscreen></iframe></div></div><p>Learning to speak requires a very different set of skills than what books and traditional classroom settings can offer. We know so much more nowadays about language learning, and the old paradigm of the passive student and active tutor will not produce result fast to get you conversational. If you have tried college classes, taking intensive courses abroad, using phone apps and still can't speak, you are not alone. Most of the people we help become fluent have tried many or all of these before without good results. We can help you!</p><p>If you have tried college classes, taking intensive courses abroad, using phone apps and still can't speak, you are not alone. Most of the people we help become fluent have tried many or all of these before without good results. We can help you!</p>"
+      }
+    },
+    {
+      "type": "Copy",
+      "config": {
+        "class": [
+          "text-center"
+        ]
+      },
+      "content": {
+        "title": "Interested in becoming fluent in Spanish?",
+        "body": "Try our courses and see fast results. We offer 30 minute complimentary consultations.",
+        "cta": {
+          "text": "Book an appointment",
+          "href": "/contact"
+        }
+      }
+    },
+    {
+      "type": "Copy",
+      "config": {
+        "class": [
+          "footer-strip"
+        ],
+        "background": {
+          "style": "image",
+          "value": "/footer-strip.jpg",
+          "responsive": true
+        }
+      },
+      "content": {}
+    }
+  ]
+}
