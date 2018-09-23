@@ -3,7 +3,7 @@
 
 header {
   color: map-get($colors-overrides, 'header-color');
-  background: map-get($colors-overrides, header-bg);
+  background: none;
   padding: 1em;
   z-index: 1;
 
