@@ -13,32 +13,42 @@
     "footer": {
       "content": {
         "copyright": {
-          "copy": "Una Buena Spanish"
+          "copy": "All rights reserved"
         },
         "sections": [
           {
-            "title": "Una Buena Spanish",
             "items": [
               {
                 "routerLink": "/home",
                 "copy": "Home"
-              }
-            ]
-          },
-          {
-            "title": "Learn About Us",
-            "items": [
+              },
               {
                 "routerLink": "/about",
-                "copy": "About Una Buena"
+                "copy": "About"
               },
               {
                 "routerLink": "/contact",
-                "copy": "Contact Us"
+                "copy": "Calendar"
+              },
+              {
+                "routerLink": "/contact",
+                "copy": "Contact"
               }
             ]
           }
-        ]
+        ],
+        "social": {
+          "items": [
+            {
+              "type": "facebook",
+              "href": "https://www.facebook.com/pawsforabeer/"
+            },
+            {
+              "type": "instagram",
+              "href": "https://www.instagram.com/paws_forabeer/"
+            }
+          ]
+        }
       }
     },
     "mainMenu": {
@@ -56,12 +66,12 @@
           },
           {
             "style": "link",
-            "text": "About Una Buena",
+            "text": "About",
             "href": "/about"
           },
           {
             "style": "link",
-            "text": "Contact Us",
+            "text": "Contact",
             "href": "/contact"
           }
         ]

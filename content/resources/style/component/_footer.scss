@@ -4,11 +4,20 @@ site-footer {
   footer {
     margin-top: 0;
     z-index: 0 !important;
+    height: 100px !important;
 
     .content,
     .sub-footer {
       border-top: none;
       background: map-get($colors-overrides, footer-bg);
+      background-color: #8B4048 !important;
+    }
+
+    .content {
+        .row {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        }
     }
 
     ul {

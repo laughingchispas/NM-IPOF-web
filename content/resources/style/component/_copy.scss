@@ -7,12 +7,17 @@
 
     h1 {
       font-weight: 300;
+
+      .3-part-subtitle {
+              padding: 0 5px !important;
+              color: pink !important;
+          }
     }
 
     .structure-content {
       .container {
-        padding-top: 1em;
-        padding-bottom: 1em;
+        padding-top: .5 em;
+        padding-bottom: .5 em;
       }
     }
 
@@ -25,7 +30,7 @@
       margin-top: 2em;
 
       .structure-content {
-        height: 107px;
+        height: 90px;
         padding: 0;
       }
     }
@@ -35,7 +40,7 @@
 
       &.footer-strip {
         .structure-content {
-          height: 138px;
+          height: 0px;
           padding: 0;
         }
       }
@@ -44,7 +49,7 @@
     @media screen and(min-width: $screen-md-min) {
       &.footer-strip {
         .structure-content {
-          height: 167px;
+          height: 0px;
           padding: 0;
         }
       }
@@ -53,7 +58,7 @@
     @media screen and(min-width: $screen-lg-min) {
       &.footer-strip {
         .structure-content {
-          height: 267px;
+          height: 0px;
           padding: 0;
         }
       }
