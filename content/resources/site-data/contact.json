@@ -1,0 +1,41 @@
+{
+  "config": {
+    "header": true,
+    "footer": true,
+    "mainMenu": true
+  },
+  "component": [
+    {
+      "type": "Copy",
+      "config": {
+        "class": [
+          "home-second-pic"
+        ],
+        "background": {
+          "style": "image",
+          "value": "/home-middle-hero.jpg",
+          "responsive": true
+        }
+      },
+      "content": {
+      }
+    },
+    {
+      "type": "Copy",
+      "config": {
+        "class": [
+          "contact-page"
+        ],
+        "background": {
+          "style": "color",
+          "value": "white",
+          "responsive": true
+        }
+      },
+      "content": {
+        "title": "Contact",
+        "body": "<p>Information and Booking: Nicole Miller</p><p>laughingchispas@gmail.com</p><p>(32) 496 39 00 24</p>"
+      }
+    }
+  ]
+}

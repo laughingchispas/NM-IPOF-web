@@ -1,0 +1,41 @@
+{
+  "config": {
+    "header": true,
+    "footer": true,
+    "mainMenu": true
+  },
+  "component": [
+    {
+      "type": "Copy",
+      "config": {
+        "class": [
+          "home-second-pic"
+        ],
+        "background": {
+          "style": "image",
+          "value": "/home-middle-hero.jpg",
+          "responsive": true
+        }
+      },
+      "content": {
+      }
+    },
+    {
+      "type": "Copy",
+      "config": {
+        "class": [
+          "about-us"
+        ],
+        "background": {
+          "style": "color",
+          "value": "white",
+          "responsive": true
+        }
+      },
+      "content": {
+        "title": "about us",
+        "body": "<p>What does it mean to be a Millenial and a classically-trained musician? Raised on the internet, around open-source concepts, and to embody some of the most progressive political and social values in history, we are classical musicians who are a unique product of our generation. Concretely, this translates into the ideas of collaboration, expansion, and genre-blending. Despite a lifetime of classical training, we do not close the door to collaboration with other genres, we thrive on it. Anything is allowed.</p><p>Brussels-based, we are a group of classically-trained strings who had continually crossed paths in projects spanning the poles from Bluegrass chop techniques, jazz improvisation, minimalism, baroque, theater, pop, symphonic orchestra to electronica. In a desire to funnel this passion for the classical, the non-classical and the collaborative, In Praise of Folly is a string quartet that offers a shared desire to bring the unique color of strings to a non-classical domain by supporting the unique worlds’ of pop artists. And at the same time, a drive to contribute to the world of classical music is the motivating factor for our work with young Millenial composers to create new, contemporary chamber music.</p><p>With over 100 years combined experience playing classical and non-classical music, we perform on stage and in the studio with independent, rock, and pop bands in Europe and beyond. While able to perform acoustically, we are also well-versed in performing using amplification, in-ear microphones or on clicks, reading traditional sheet music as well as chord charts and from memory. We can also provide backup vocals, some secondary instruments, and string arrangements.</p>"
+      }
+    }
+  ]
+}

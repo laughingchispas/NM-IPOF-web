@@ -71,6 +71,11 @@
           },
           {
             "style": "link",
+            "text": "Calendar",
+            "href": "/calendar"
+          },
+          {
+            "style": "link",
             "text": "Contact",
             "href": "/contact"
           }

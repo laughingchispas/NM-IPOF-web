@@ -4,28 +4,7 @@
     "default": "home.json",
     "/about": "about.json",
     "/contact": "contact.json",
-    "/packages": "packages.json",
-    "/hybrid-packages": "hybrid-packages.json",
-    "/single-lessons": "single-lessons.json",
-    "/packages/4": "packages/4.json",
-    "/packages/6": "packages/6.json",
-    "/packages/8": "packages/8.json",
-    "/packages/12": "packages/12.json",
-    "/hybrid-packages/4": "hybrid-packages/4.json",
-    "/hybrid-packages/6": "hybrid-packages/6.json",
-    "/hybrid-packages/8": "hybrid-packages/8.json",
-    "/single-lessons/60": "single-lessons/60.json",
-    "/single-lessons/90": "single-lessons/90.json",
+    "/calendar": "calendar.json",
     "/": "home.json"
-  },
-  "vendor": {
-    "googleMaps": {
-      "apiKey": "AIzaSyBD4m3TIux5wmxNeI7xtkomitYSMmID3wY"
-    },
-    "metrics": {
-      "google": {
-        "trackingId": "UA-77165499-1"
-      }
-    }
   }
 }

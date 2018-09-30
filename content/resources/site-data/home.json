@@ -22,7 +22,7 @@
       },
       "content": {
         "title": "in praise of folly",
-        "subtitle": "String Quartet"
+        "subtitle": "string quartet"
       }
     },
     {
@@ -34,24 +34,23 @@
         ]
       },
       "content": {
-        "title": "<span class='random'>studio</span><span class='3-part-subtitle'>stage</span><span class='3-part-subtitle'>collaboration</span>",
-        "body": "<p>in praise of folly is a Brussels-based string quartet comprised of classical musicians who are a unique product of their generation. Concretely, this translates into a philosophy of collaboration, expansion, and cross-genre performance.</p><p>In only a year of playing together, their collaborative musical approach has opened doors to exciting projects in jazz, pop, rock, chanson, and contemporary classical - both stage and in studio.</p><p>Among the highlights of this year, a tour across Europe with the Progressive-Rock band Marillion, sold-out Royal Albert Hall in October 2017; a string quartet written especially for them by young Belgian composer Mathias Coppens and first performed at the Festival Zomer van Antwerpen in July 2017; as well as an invitation to perform with Pol Belardi’s Force in the project Creation/Evolution at the Philharmony of Luxembourg in March, 2018.</p><p>They have also recorded on a number a jazz and pop albums this year including: John Anderberg’s True Veins (Sweden), the jazz ensemble Effdé (France), Jazz vocalist Emily Allison (Belgium), and Paris-based Emily Rambaud’s newest EP, Romance.</p><p>Upcoming, the quartet will record the band’s newest album for Marillion at Real World Studios and is will accompany the band for its world tour in 2019.</p>"
+        "title": "<span>studio</span><span>stage</span><span>collaboration</span>",
+        "body": "<p><span>in praise of folly</span> is a Brussels-based string quartet comprised of classical musicians who are a unique product of their generation. Concretely, this translates into a philosophy of collaboration, expansion, and cross-genre performance.</p><p>In only a year of playing together, their collaborative musical approach has opened doors to exciting projects in jazz, pop, rock, chanson, and contemporary classical - both stage and in studio.</p><p>Among the highlights of this year, a tour across Europe with the Progressive-Rock band <span>Marillion</span>, sold-out Royal Albert Hall in October 2017; a string quartet written especially for them by young Belgian composer Mathias Coppens and first performed at the Festival Zomer van Antwerpen in July 2017; as well as an invitation to perform with Pol Belardi’s <span>Force</span> in the project <span>Creation/Evolution</span> at the Philharmony of Luxembourg in March, 2018.</p><p>They have also recorded on a number a jazz and pop albums this year including: John Anderberg’s <span>True Veins</span> (Sweden), the jazz ensemble <span>Effdé</span> (France), Jazz vocalist Emily Allison (Belgium), and Paris-based Emily Rambaud’s newest EP, <span>Romance</span>.</p>"
       }
     },
     {
       "type": "Copy",
       "config": {
         "class": [
-          "text-center"
-        ]
+          "home-hero"
+        ],
+        "background": {
+          "style": "image",
+          "value": "/home-third-hero.jpg",
+          "responsive": true
+        }
       },
       "content": {
-        "title": "Upcoming events",
-        "body": "bla bla bla",
-        "cta": {
-          "text": "See past events",
-          "href": "/contact"
-        }
       }
     },
     {
@@ -65,6 +64,37 @@
       "content": {
         "title": "media",
         "body": "<div class='embedded-video'><div class='intrinsic-16-9'><iframe class='intrinsic-child' src='https://www.youtube.com/embed/MNDrI-5d2-c' frameborder='0' allowfullscreen></iframe></div><div class='embedded-video'><div class='intrinsic-16-9'><iframe class='intrinsic-child' src='https://www.youtube.com/embed/Nm_TcAAySbc' frameborder='0' allowfullscreen></iframe></div></div>"
+      }
+    },
+    {
+      "type": "Copy",
+      "config": {
+        "class": [
+          "home-second-pic"
+        ],
+        "background": {
+          "style": "image",
+          "value": "/home-third-hero.jpg",
+          "responsive": true
+        }
+      },
+      "content": {
+      }
+    },
+    {
+      "type": "Copy",
+      "config": {
+        "class": [
+          "text-center"
+        ]
+      },
+      "content": {
+        "title": "Upcoming events",
+        "body": "Bozar (Brussels): May 25, 2019",
+        "cta": {
+          "text": "See all events",
+          "href": "/calendar"
+        }
       }
     }
   ]

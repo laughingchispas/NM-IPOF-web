@@ -21,6 +21,11 @@
             }
         }
 
+        .second-second-pic {
+            background-size: cover;
+            background-position: center center;
+        }
+
         @media screen and(min-width: $screen-sm-min) {
             h1 {
                 font-size: 1.75em;
