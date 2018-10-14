@@ -1,7 +1,7 @@
 @import '../variables';
 @import '../../../../style/bootstrap-custom/bootstrap-no-output';
 
-&:host {
+:host {
     .hero {
         h1 {
             text-align: left;
