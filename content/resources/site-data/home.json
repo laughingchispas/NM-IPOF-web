@@ -42,7 +42,8 @@
       "type": "Copy",
       "config": {
         "class": [
-          "home-hero"
+          "home-hero",
+          "divider-home-content"
         ],
         "background": {
           "style": "image",

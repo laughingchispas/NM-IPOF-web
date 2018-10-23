@@ -64,3 +64,49 @@ small {
     text-align: justify;
     }
 }
+
+.about-pic {
+    height: 400px;
+}
+
+.agenda-pic {
+    height: 400px;
+}
+
+.agenda-pic-two {
+    height: 400px;
+}
+
+.siteIcon {
+    text-decoration: none;
+}
+
+.footer-section a {
+    text-decoration: none !important;
+}
+
+.footer-section a:hover {
+    text-decoration: underline !important;
+}
+
+
+.footer-section {
+    padding-bottom: 10px;
+    ul {
+        li {
+            line-height: 15px !important;
+        }
+    }
+}
+
+.calendar-content p {
+    font-size: 16px;
+    line-height: 16px
+}
+
+.contact-pic {
+    height: 400px;
+}
+
+
+

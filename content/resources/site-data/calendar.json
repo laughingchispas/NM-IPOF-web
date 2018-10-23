@@ -9,11 +9,12 @@
       "type": "Copy",
       "config": {
         "class": [
-          "home-second-pic"
+          "home-second-pic",
+          "agenda-pic"
         ],
         "background": {
           "style": "image",
-          "value": "/home-middle-hero.jpg",
+          "value": "/RAH-hero.jpg",
           "responsive": true
         }
       },
@@ -26,7 +27,7 @@
       "type": "Copy",
       "config": {
         "class": [
-          ""
+          "calendar-content"
         ],
         "background": {
           "style": "color",
@@ -43,11 +44,12 @@
       "type": "Copy",
       "config": {
         "class": [
-          "home-second-pic"
+          "home-second-pic",
+          "agenda-pic-two"
         ],
         "background": {
           "style": "image",
-          "value": "/home-middle-hero.jpg",
+          "value": "/confetti-hero.jpg",
           "responsive": true
         }
       },
@@ -60,7 +62,7 @@
       "type": "Copy",
       "config": {
         "class": [
-          ""
+          "calendar-content"
         ],
         "background": {
           "style": "color",

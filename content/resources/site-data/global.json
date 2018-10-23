@@ -3,7 +3,7 @@
     "header": {
       "content": {
         "mainMenuToggle": {
-          "label": "Menu"
+          "label": "in praise of folly"
         },
         "logo": {
           "type": "icon"
@@ -41,11 +41,11 @@
           "items": [
             {
               "type": "facebook",
-              "href": "https://www.facebook.com/pawsforabeer/"
+              "href": "https://www.facebook.com/inpraiseoffolly/"
             },
             {
               "type": "instagram",
-              "href": "https://www.instagram.com/paws_forabeer/"
+              "href": "https://www.instagram.com/inpraiseoffolly/"
             }
           ]
         }

@@ -9,11 +9,11 @@
       "type": "Copy",
       "config": {
         "class": [
-          "home-second-pic"
+          "contact-pic"
         ],
         "background": {
           "style": "image",
-          "value": "/home-middle-hero.jpg",
+          "value": "/RAH-BW-hero.jpg",
           "responsive": true
         }
       },

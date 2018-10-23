@@ -9,7 +9,8 @@
       "type": "Copy",
       "config": {
         "class": [
-          "home-second-pic"
+          "home-second-pic",
+          "about-pic"
         ],
         "background": {
           "style": "image",
