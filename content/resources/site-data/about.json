@@ -42,22 +42,23 @@
       "type": "TileSet",
       "config": {
         "class": [
+          "three-photo-set"
         ]
       },
       "content": {
         "tiles": [
           {
-            "title": "",
+            "title": "Photo credit: Hugo Fustier",
             "body": "",
             "image": "/nicole.jpg"
           },
           {
-            "title": "",
+            "title": "Photo credit: Stan Tag",
             "body": "",
             "image": "/laugh.jpg"
           },
           {
-            "title": "",
+            "title": "Photo credit: Hugo Fustier",
             "body": "",
             "image": "/meg.jpg"
           }

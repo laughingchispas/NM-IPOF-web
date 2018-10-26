@@ -43,23 +43,23 @@
       "type": "TileSet",
       "config": {
         "class": [
-          "three-image-set"
+          "three-photo-set"
         ]
       },
       "content": {
         "tiles": [
           {
-            "title": "",
+            "title": "Photo credit: Hugo Fustier",
             "body": "",
             "image": "/maia.jpg"
           },
           {
-            "title": "",
+            "title": "Photo credit: Olivier Defawe",
             "body": "",
             "image": "/annemie.jpg"
           },
           {
-            "title": "",
+            "title": "Photo credit: Anne-Marie Forker",
             "body": "",
             "image": "/crowd.jpg"
           }
