@@ -30,14 +30,57 @@
       "config": {
         "class": [
           "solid-bg-1",
-          "home-copy-blade"
+          "home-copy-blade",
+          "home-second-title"
         ]
       },
       "content": {
         "title": "<span>studio</span><span>stage</span><span>collaboration</span>",
+        "body": ""
+      }
+    },
+    {
+      "type": "TileSet",
+      "config": {
+        "class": [
+          "three-image-set"
+        ]
+      },
+      "content": {
+        "tiles": [
+          {
+            "title": "",
+            "body": "",
+            "image": "/maia.jpg"
+          },
+          {
+            "title": "",
+            "body": "",
+            "image": "/annemie.jpg"
+          },
+          {
+            "title": "",
+            "body": "",
+            "image": "/crowd.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Copy",
+      "config": {
+        "class": [
+          "solid-bg-1",
+          "home-copy-blade",
+          "home-text"
+        ]
+      },
+      "content": {
+        "title": "",
         "body": "<p><span>in praise of folly</span> is a Brussels-based string quartet comprised of classical musicians who are a unique product of their generation. Concretely, this translates into a philosophy of collaboration, expansion, and cross-genre performance.</p><p>In only a year of playing together, their collaborative musical approach has opened doors to exciting projects in jazz, pop, rock, chanson, and contemporary classical - both stage and in studio.</p><p>Among the highlights of this year, a tour across Europe with the Progressive-Rock band <span>Marillion</span>, sold-out Royal Albert Hall in October 2017; a string quartet written especially for them by young Belgian composer Mathias Coppens and first performed at the Festival Zomer van Antwerpen in July 2017; as well as an invitation to perform with Pol Belardi’s <span>Force</span> in the project <span>Creation/Evolution</span> at the Philharmony of Luxembourg in March, 2018.</p><p>They have also recorded on a number a jazz and pop albums this year including: John Anderberg’s <span>True Veins</span> (Sweden), the jazz ensemble <span>Effdé</span> (France), Jazz vocalist Emily Allison (Belgium), and Paris-based Emily Rambaud’s newest EP, <span>Romance</span>.</p>"
       }
     },
+
     {
       "type": "Copy",
       "config": {
@@ -54,6 +97,7 @@
       "content": {
       }
     },
+
     {
       "type": "Copy",
       "config": {
@@ -75,7 +119,7 @@
         ],
         "background": {
           "style": "image",
-          "value": "/home-third-hero.jpg",
+          "value": "/home-hero.jpg",
           "responsive": true
         }
       },

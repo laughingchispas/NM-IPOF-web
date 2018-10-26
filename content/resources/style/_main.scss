@@ -109,4 +109,20 @@ small {
 }
 
 
+.tile-set {
+    .structure-content {
+    margin: 0 auto 2em auto !important;
+    }
+}
 
+.button {
+    border-radius: 0 !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .about-us {
+        .structure-content{
+            padding: 0 !important;
+        }
+    }
+}

@@ -14,3 +14,40 @@
           }
       }
 }
+
+.home-second-title {
+    .structure-content{
+        background-color: white !important;
+    }
+}
+
+.home-text {
+    .structure-content {
+        margin-top: -40px !important;
+        padding: 0 !important;
+        background-color: white !important;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .home-hero h2 {
+         margin-top: -5px !important;
+    }
+
+    .home-second-title {
+        .structure-content{
+            padding: 0 !important;
+            margin-bottom: -10px;
+        }
+    }
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .home-hero h2 {
+         margin-top: -10px !important;
+    }
+
+}
