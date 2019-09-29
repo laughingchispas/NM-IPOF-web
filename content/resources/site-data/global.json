@@ -27,7 +27,7 @@
                 "copy": "About"
               },
               {
-                "routerLink": "/contact",
+                "routerLink": "/calendar",
                 "copy": "Calendar"
               },
               {

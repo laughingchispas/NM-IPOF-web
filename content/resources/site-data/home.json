@@ -108,7 +108,7 @@
       },
       "content": {
         "title": "media",
-        "body": "<div class='embedded-video'><div class='intrinsic-16-9'><iframe class='intrinsic-child' src='https://www.youtube.com/embed/MNDrI-5d2-c' frameborder='0' allowfullscreen></iframe></div><div class='embedded-video'><div class='intrinsic-16-9'><iframe class='intrinsic-child' src='https://www.youtube.com/embed/Nm_TcAAySbc' frameborder='0' allowfullscreen></iframe></div></div>"
+        "body": "<div class='embedded-video'><div class='intrinsic-16-9'><iframe class='intrinsic-child' src='https://www.youtube.com/embed/AnicB5X9dEc' frameborder='0' allowfullscreen></iframe></div></div><div class='embedded-video'><div class='intrinsic-16-9'><iframe class='intrinsic-child' src='https://www.youtube.com/embed/MNDrI-5d2-c' frameborder='0' allowfullscreen></iframe></div></div><div class='embedded-video'><div class='intrinsic-16-9'><iframe class='intrinsic-child' src='https://www.youtube.com/embed/Nm_TcAAySbc' frameborder='0' allowfullscreen></iframe></div></div>"
       }
     },
     {
@@ -135,7 +135,7 @@
       },
       "content": {
         "title": "Upcoming events",
-        "body": "Bozar (Brussels): May 25, 2019",
+        "body": "<p>Liverpool Philharmonic: Nov. 1, 2019</p><p>Royal Concert Hall (Nottingham): Nov. 3, 2019</p><p>Bridgewater Hall (Manchester): Nov. 4, 2019</p><p>Symphony Hall (Birmingham, UK): Nov. 6, 2019</p><p>Guildhall (Portsmouth, UK): Nov. 7, 2019</p><p>The Forum (Bath, UK): Nov. 9, 2019</p><p>New Theatre (Oxford, UK): Nov. 10, 2019</p><p>Royal Concert Hall (Glasgow, UK): Nov. 12, 2019</p><p>The Sage (Gateshead, UK): Nov. 13, 2019</p><p>Cliffs Pavillion (Southend, UK): Nov. 15, 2019</p><p>St. David's Hall (Cardiff, UK): Nov. 16, 2019</p><p>Royal Albert Hall (London, UK): Nov. 18, 2019</p><p>Royal Albert Hall (London, UK): Nov. 19, 2019</p>",
         "cta": {
           "text": "See all events",
           "href": "/calendar"

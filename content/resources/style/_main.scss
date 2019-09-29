@@ -121,7 +121,7 @@ small {
 
 .three-photo-set h2 {
     margin-top: 0 !important;
-    text-align: left !important;
+    text-align: center !important;
     font-style: italic;
     font-size: 12px !important;
     font-weight: normal !important;
@@ -133,5 +133,9 @@ small {
         .structure-content{
             padding: 0 !important;
         }
+    }
+
+    .three-photo-set h2 {
+        text-align: left !important;
     }
 }
