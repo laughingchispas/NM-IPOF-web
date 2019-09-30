@@ -37,7 +37,7 @@
       },
       "content": {
         "title": "upcoming events",
-        "body": "<p>Liverpool Philharmonic: Nov. 1, 2019</p><p>Royal Concert Hall (Nottingham): Nov. 3, 2019</p><p>Bridgewater Hall (Manchester): Nov. 4, 2019</p><p>Symphony Hall (Birmingham, UK): Nov. 6, 2019</p><p>Guildhall (Portsmouth, UK): Nov. 7, 2019</p><p>The Forum (Bath, UK): Nov. 9, 2019</p><p>New Theatre (Oxford, UK): Nov. 10, 2019</p><p>Royal Concert Hall (Glasgow, UK): Nov. 12, 2019</p><p>The Sage (Gateshead, UK): Nov. 13, 2019</p><p>Cliffs Pavillion (Southend, UK): Nov. 15, 2019</p><p>St. David's Hall (Cardiff, UK): Nov. 16, 2019</p><p>Royal Albert Hall (London, UK): Nov. 18, 2019</p><p>Royal Albert Hall (London, UK): Nov. 19, 2019</p>"
+        "body": "<div class='embedded-video'><div class='intrinsic-16-9'><iframe class='intrinsic-child' src='https://www.youtube.com/embed/AnicB5X9dEc' frameborder='0' allowfullscreen></iframe></div></div><div class='embedded-video'><div class='intrinsic-16-9'><iframe class='intrinsic-child' src='https://www.youtube.com/embed/MNDrI-5d2-c' frameborder='0' allowfullscreen></iframe></div></div><div class='embedded-video'><div class='intrinsic-16-9'><iframe class='intrinsic-child' src='https://www.youtube.com/embed/Nm_TcAAySbc' frameborder='0' allowfullscreen></iframe></div></div>"
       }
     },
     {
@@ -72,7 +72,7 @@
       },
       "content": {
         "title": "past events",
-        "body": "<p>The Luxembourg Philharmonic: March 24, 2018</p><p>The Royal Albert Hall: October 13, 2017</p><p>Tivolivredenburg: October 10, 2017</p><p>RABOzaal (Heerlen, NL): October 9, 2017</p><p>Le Zénith de Paris: October 7, 2017</p><p>Zomerfestival (Antwerpen): July 4, 2017</p><p>De Montfort Hall (UK): April 30, 2017</p>"
+        "body": "<p><a href=”https://www.visitluxembourg.com/fr/agenda/event/2019/07/11/echterlive-festival-2019”>Echterlive Festival</a> (Echternach, LU) : July 12, 2019</p><p>The Luxembourg Philharmonic: March 24, 2018</p><p>The Royal Albert Hall: October 13, 2017</p><p>Tivolivredenburg: October 10, 2017</p><p>RABOzaal (Heerlen, NL): October 9, 2017</p><p>Le Zénith de Paris: October 7, 2017</p><p>Zomerfestival (Antwerpen): July 4, 2017</p><p>De Montfort Hall (UK): April 30, 2017</p>"
       }
     }
   ]
